@@ -23,7 +23,9 @@ _A list of my commonly used Git commands_
 | `git commit -m "first commit"`|  commit changes to git|
 | `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
 | `git push -u origin main`| Push to github (if the repository doens's exist it will be created) |
-               
+
+| Command | Description |
+| ------- | ----------- |         
 | `!!! push an existing repository from the command line !!!`|
 | `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
 | `git branch -M main`| select or create a Main repository |
