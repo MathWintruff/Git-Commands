@@ -13,7 +13,7 @@ _A list of my commonly used Git commands_
 --
 ### Starting with a Repository
 
-| `!!! create a new repository on the command line !!!`|
+`!!! create a new repository on the command line !!!`
 | Command | Description |
 | ------- | ----------- |
 | `git init`| Initialize the local repository |
@@ -24,7 +24,7 @@ _A list of my commonly used Git commands_
 | `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
 | `git push -u origin main`| Push to github (if the repository doens's exist it will be created) |
 
-| `!!! push an existing repository from the command line !!!`|
+`!!! push an existing repository from the command line !!!`
 | Command | Description |
 | ------- | ----------- |         
 | `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
