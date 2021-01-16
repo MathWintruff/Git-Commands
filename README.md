@@ -11,13 +11,36 @@ _A list of my commonly used Git commands_
 *If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
+### Starting with a Repository
 
-### Getting & Creating Projects
+| Command | Description |
+| ------- | ----------- |
+| `!!! create a new repository on the command line !!!`|
+| `git init`| Initialize the local repository |
+| `git add README.md`|  add a Readme file in the local repository|
+| `git add -A` | Add all new and changed files to the staging area |
+| `git branch -M main`| select or create a Main repository |
+| `git commit -m "first commit"`|  commit changes to git|
+| `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
+| `git push -u origin main`| Push to github (if the repository doens's exist it will be created) |
+               
+| `!!! push an existing repository from the command line !!!`|
+| `git remote add origin https://github.com/MathWintruff/test.git`| Add and Set the remote repository of git for the local repository |
+| `git branch -M main`| select or create a Main repository |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "first commit"`|  commit changes to git|
+| `git push -u origin main`| Push to github (if the repository doens's exist it will be created) |
+
+
+### Getting Projects
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `OR`|
+| `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+
 
 ### Basic Snapshotting
 
