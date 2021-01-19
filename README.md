@@ -45,7 +45,7 @@ _A list of my commonly used Git commands_
 | `git config --global core.excludesfile ~/.gitignore_global` | Opens the Global .gitignore |
 | `git check-ignore [<options>] <pathname>` | Check whether the file is excluded by .gitignore and output the path if it is excluded |
 | `git git check-ignore [<options>] --stdin` | For each pathname given via a file via --stdin, check whether the file is excluded by .gitignore and output the path if it is excluded |
-### [<options>]:
+### [options]:
 -q, --quiet
 Don’t output anything, just set exit status. This is only valid with a single pathname.
 
